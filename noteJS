@@ -3,4 +3,34 @@
 
 
 //Nội dung=================================================
-- alert: hiện thị thông báo trên trình duyệt
+
+//Bài 1----------------------------------------------------
+- alert: hiện thị thông báo dạng popup trên trình duyệt
+
+- console.log: hiện nội dung trên console
+
+//Bài 2----------------------------------------------------
+
+- các cách nhúng code JS vào html
+    1. internal nhúng trực tiếp vào thẻ script
+    2. external: nhúng gián tiếp từ file js trong thuộc tính src của thẻ script
+
+//Bài 3----------------------------------------------------
+
+- hàm prompt: để hiển thị hộp thoại nhập liệu trên trình duyệt và chờ ng dùng nhập 1 giá trị 
+    -> về cơ bản: 
+        - dữ liệu vừa nhập sẽ biến mất và ko dc lưu vào bộ nhớ
+        - 
+
+- biến : là 1 ô nhớ trong bộ nhớ dc đặt tên và sử dụng để lưu giá trị
+
+- 3 từ khóa khai báo biến
+    1. var: trc ES6
+    2. let: từ ES6
+    3. const: khai báo hằng số: biến ko đổi giá trị sau khi gán
+
+- khai báo biến: chỉ đặt trên
+
+- khởi tạo biến: đặt tên và gán giá trị
+
+- xuất giá trị: in giá trị dc lưu trong biến
