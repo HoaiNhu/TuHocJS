@@ -1,5 +1,5 @@
 //Web=====================================================
-
++ thứ tự ưu tiên trong phép toán : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_precedence
 
 
 //Nội dung=================================================
