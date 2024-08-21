@@ -79,3 +79,27 @@
     let numberC = Number(prompt("Nhập số C mau"));
 
 - nếu ép số nguyên mà nhập số thực thì giá trị nhập sẽ bị ép về số nguyên
+
+//Bài 9----------------------------------------------------
+
+- trong phép tính đơn lẻ thì ++,-- trc sau là như nhau
+
+- trong các phép toán phức tạp thì tuân theo quy tắc
+    -> a++, a-- => postfix
+    -> ++a, --a => prefix
+
+- ưu tiên tính toán postfix, prefix
+    1. prefix
+    2. các phép toán còn lại
+    3. gán giá trị cho biến bên trái dấu = 
+    4. postfix
+
+//Bài 10----------------------------------------------------
+
+- &&: and -> trả về true nếu all đều đúng
+
+- ||: or -> trả vê true nếu ít nhất 1 biểu thức đúng
+
+- !: not -> đảo ngc giá trị
+
+- toFixed(<số chữ số sau dấu phẩy>)
