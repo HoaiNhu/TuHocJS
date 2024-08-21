@@ -65,3 +65,17 @@
     2. dùng dấu ,
     3. console.log(`Căn bậc 2 của ${soA} là ${soB}`);
     4. console.log(`Căn bậc 2 của %s là %s`, soA, soB);
+
+//Bài 8----------------------------------------------------
+
+- mặc định kiểu nhập từ bàn phím là string
+    -> đối vs phép cộng -> JS sẽ hiểu là cộng chuỗi
+    -> đối vs các phép tính khác -> JS cố gắng chuyển đổi thành kiểu số trc khi tính toán
+    -> nếu ko chuyển dc thì kq là NaN, Not a Number
+
+- muốn tính toán thì phải ép kiểu trc khi tính toán
+    let numberC = parseInt(prompt("Nhập số C mau"));
+    let numberC = parseFloat(prompt("Nhập số C mau"));
+    let numberC = Number(prompt("Nhập số C mau"));
+
+- nếu ép số nguyên mà nhập số thực thì giá trị nhập sẽ bị ép về số nguyên
