@@ -103,3 +103,43 @@
 - !: not -> đảo ngc giá trị
 
 - toFixed(<số chữ số sau dấu phẩy>)
+
+//Bài 12----------------------------------------------------
+
+- các phép so sánh
+    1. != , > , <, >=, <=
+    2. == : bằng nhau ko care kdl
+    3. ===: bằng nhau so sánh giá trị và kdl
+    4. !==: khác nhau khách lun kdl
+
+Chức năng                       | Bằng nhau    ==                                 | Bằng nhau ===
+Coercion ép kiểu        | Không quan tâm kiểu dữ liệu khi so sánh              | Không quan tâm kiểu dữ liệu khi so sánh
+Type Conversion 
+Chuyển đổi kiểu         | Không tuân thủ coercion JS                             | Không tuân thủ coercion JS 
+                    (không quy định kiểu dữ liệu trước khi so sánh)              (không quy định kiểu dữ liệu trước khi so sánh)
+
+Ghi chú:
+
+Chức năng: tự động chuyển đổi kiểu dữ liệu khi so sánh.
+Coercion ép kiểu: ép kiềm nén dữ liệu trước khi so sánh.
+Type Conversion Chuyển đổi kiểu: chuyển đổi rõ ràng các loại của chúng.
+
+- chỉ có phép + gặp chuỗi thì mới bị ép kiểu ngầm sang chuỗi, các phép khách sẽ bị ép thành số
+
+//Bài 13----------------------------------------------------
+
+- 1. Math.sqrt(): căn bậc 2
+
+-  2. Math.pow(base, exponent): lũy thừa
+
+-  3. Math. abs(): lấy trị tuyệt đối
+
+-  4. Math.ceil(): làm tròn lên, Math.floor(): làm tròn xuống
+
+-  5. Math.round(), từ 0.5 lm tròn thành 1
+
+-  6. .toFixed(): làm tròn x số sau dấu .
+    -> kiểu trả về của toFixed là string
+    -> ép kiểu sang number
+    
+- 7. Math.min(): tìm giá trị nhỏ nhất, Mạh.max(): tìm giá trị lớn nhất
