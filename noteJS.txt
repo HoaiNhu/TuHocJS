@@ -141,5 +141,27 @@ Type Conversion Chuyển đổi kiểu: chuyển đổi rõ ràng các loại c�
 -  6. .toFixed(): làm tròn x số sau dấu .
     -> kiểu trả về của toFixed là string
     -> ép kiểu sang number
-    
+
 - 7. Math.min(): tìm giá trị nhỏ nhất, Mạh.max(): tìm giá trị lớn nhất
+
+//Bài 14----------------------------------------------------
+
+- hàm number(value): chuyển value sang số
+    -> nếu ko chuyển dc trả về NaN
+
+- isNaN(value): kiểm tra value ko phải định dạng số (NaN), hoặc ko thể chuyển đổi sang số
+    -> dùng hàm Number để chuyển đổi
+     --> true khi giá trị sau chuyển đổi ko phải số
+    --> false: giá trị sau chuyển đổi là số
+
+- NaN: biểu thị rằng  giá trị không phải là  số hợp lệ .
+- isNaN:  + kiểm tra xem giá trị có phải là NaN hoặc không thể chuyển đổi thành một số hợp lệ hay không. 
+              + nếu giá trị không thể chuyển đổi thành số (NaN),  sẽ trả về true, ngược lại trả về false. 
+
+- true, false <=> 0 và 1: nên vẫn trả về false nếu dùng hàm isNaN
+
+- null: dùng hàm number chuyển -> 0 khi dùng isNaN = false
+
+- chuỗi: "", " ": isNaN = false
+
+- Hàm Number.isNaN(value): chỉ trả về true nếu value or biểu thức truyền vào là NaN
