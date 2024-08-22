@@ -2,6 +2,33 @@
 + thứ tự ưu tiên trong phép toán : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_precedence
 
 
+
+
+
+
+
+
+//Cách debug
+
+- mở run and debug
+
+- chọn trình duyệt
+
+- nhấp vào dòng code cần dừng
+
+- run
+
+- nếu mún biết biểu thức true or false, bôi đen r add to watch
+
+
+
+
+
+
+
+
+
+
 //Nội dung=================================================
 
 //Bài 1----------------------------------------------------
@@ -165,3 +192,27 @@ Type Conversion Chuyển đổi kiểu: chuyển đổi rõ ràng các loại c�
 - chuỗi: "", " ": isNaN = false
 
 - Hàm Number.isNaN(value): chỉ trả về true nếu value or biểu thức truyền vào là NaN
+
+//Bài 15----------------------------------------------------
+
+- Math.random(): trả về số thực trong [0 -> 1)
+
+// random trong (0 -> 1)
+let letRandom = Math.random();
+console.log("Số ngấu nhiên từ 0 đến sát 1 là %s", letRandom);
+
+// 2. random số > 1
+let letRandom1 = Math.random() * 10;
+console.log("Số ngấu nhiên từ 0 đến sát 10 là %s", letRandom1);
+
+//random số nguyên
+let letRandom2 = Math.floor(Math.random() * 10);
+let letRandom3 = parseInt(Math.random() * 10);
+console.log("Số ngấu nhiên từ 0 đến sát 10 là %s", letRandom2);
+console.log("Số ngấu nhiên từ 0 đến sát 10 là %s", letRandom3);
+
+//Bài 16----------------------------------------------------
+
+- if...else
+
+- 
