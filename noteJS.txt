@@ -215,4 +215,13 @@ console.log("Số ngấu nhiên từ 0 đến sát 10 là %s", letRandom3);
 
 - if...else
 
-- 
+//Bài 21----------------------------------------------------
+
+- toán tử 3 ngôi:
+    -> cấu trúc:
+        
+            biến = biểu thức điều kiện 1 ? biểu thức 2 : biểu thức 3
+            biến = biểu thức điều kiện 1 ? biểu thức 2 : (biểu thức 1' ? biểu thức 2 : biểu thức 3)
+
+        - nếu biểu thức 1 đúng thì thực hiện biểu thức 2, ngược lại thực hiện biểu thức 3
+        - bản chất là rút gọn câu lệnh if...else
