@@ -276,3 +276,16 @@ switch(<biểu thức>){
 }
 
 - \n: để xuống dòng
+
+//Bài 24----------------------------------------------------
+
+while(condition){
+    //code 
+    //khi condition false, vòng lặp sẽ dừng
+}
+
+//Bài 25----------------------------------------------------
+
+do {
+    //code thực thi ít nhất 1 lần
+}while(condition);
