@@ -225,3 +225,54 @@ console.log("Số ngấu nhiên từ 0 đến sát 10 là %s", letRandom3);
 
         - nếu biểu thức 1 đúng thì thực hiện biểu thức 2, ngược lại thực hiện biểu thức 3
         - bản chất là rút gọn câu lệnh if...else
+
+//Bài 22----------------------------------------------------
+
+-  trong JS, có 1 số giá trị dc coi là falsy(giá trị sai). những giá trị này khi dc chuyển đổi sang boolean mang giá trị false
+
+- ngc lại vs falsy là truthy
+
+- các gia trị falsy:
+
+    1. false
+    2. 0
+    3. -0
+    4. 0n:số bigInt không
+    5. "": chuoix rỗng
+    6. null
+    7. undefined: chưa gán giá trị
+    8. NaN
+
+//Bài 23----------------------------------------------------
+
+switch(<biểu thức>){
+    case <giá trị 1>:
+        //code thực thi nếu biểu thức có giá trị 1
+        break;
+    case <giá trị 2>:
+        //code thực thi nếu biểu thức có giá trị 1
+        break;
+    ...
+    default:
+        //code thực thi nếu ko có trường hợp nào ở trên
+
+}
+
+- biến thể, nhiều case cùng 1 đoạn code
+switch(<biểu thức>){
+    case <giá trị 1>:
+    case <giá trị 3>:
+    case <giá trị 4>:
+    case <giá trị 15:
+        //code thực thi nếu biểu thức có giá trị 1
+        break;
+    case <giá trị 2>:
+        //code thực thi nếu biểu thức có giá trị 1
+        break;
+    ...
+    default:
+        //code thực thi nếu ko có trường hợp nào ở trên
+
+}
+
+- \n: để xuống dòng
