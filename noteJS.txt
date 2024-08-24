@@ -289,3 +289,6 @@ while(condition){
 do {
     //code thực thi ít nhất 1 lần
 }while(condition);
+
+//Bài 26----------------------------------------------------
+while(true):tạo vòng lặp vô tận -> thêm break
