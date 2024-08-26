@@ -292,3 +292,22 @@ do {
 
 //Bài 26----------------------------------------------------
 while(true):tạo vòng lặp vô tận -> thêm break
+
+//Bài 27----------------------------------------------------
+for(khởi tạo; điều kiện; bước lặp){
+    khối lệnh
+}
+
+//Bài 28----------------------------------------------------
+
+- break: thường dùng để thoát khỏi 1 vòng lặp,
+
+- continue: dùng để bỏ qua 1 giá trị trong vòng lặp
+
+//Bài 29----------------------------------------------------
+
+- kiểm tra số nguyên 
+    1. a % 1 === 0
+    2. Number.isInterger === true nếu nguyên false nếu ko nguyên
+        -> nếu số quá lớn (>16 chữ số) mà .1 thì vẫn coi như số nguyên ví dụ: 4500000000000000.1
+        -> nếu phần thập phân quá nhỏ(>15 số 0) thì vẫn coi như nguyên, ví dụ: 5.0000000000000001
