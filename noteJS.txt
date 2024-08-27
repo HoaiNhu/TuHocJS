@@ -311,3 +311,44 @@ for(khởi tạo; điều kiện; bước lặp){
     2. Number.isInterger === true nếu nguyên false nếu ko nguyên
         -> nếu số quá lớn (>16 chữ số) mà .1 thì vẫn coi như số nguyên ví dụ: 4500000000000000.1
         -> nếu phần thập phân quá nhỏ(>15 số 0) thì vẫn coi như nguyên, ví dụ: 5.0000000000000001
+
+//Bài 33----------------------------------------------------
+
+- khi muốn thực thi 1 đoạn code nhiều lần, ta dùng hàm để tránh bị trùng lặp code
+
+- hàm là 1 khối lệnh thực thi 1 công việc hoàn chỉnh (module), còn dc gọi là chương trình con
+
+- công dụng: 
+    -> chia nhỏ công việc dự án
+    -> tái sử dụng code
+
+- giá trị trả về của hàm ko dùng return là undefined
+
+- nếu ko truyền giá trị mặc định cho paramater, khi gọi hàm nhập thiếu đối số sẽ trả về NaN
+
+//Bài 34----------------------------------------------------
+
+- các cách khai báo Hàm
+    1. function declaration(khai báo tường minh)
+
+        function tenHam(paramater){
+            //body
+            //return sth
+        }
+
+    2. function expression
+
+        let tenBien = function(thamSo){
+            //body
+            //return sth
+        }
+
+    3. Arrow function
+        
+        let tenBien = (thamSo) => {
+            //body
+            //return sth (bỏ return nếu hàm quá ngắn)
+        }
+
+    4. gọi hàm trong hàm khác
+    
