@@ -351,4 +351,13 @@ for(khởi tạo; điều kiện; bước lặp){
         }
 
     4. gọi hàm trong hàm khác
-    
+
+//Bài 38----------------------------------------------------
+
+- scope(phạm vi): xác định nơi mà 1 biến có thể dc truy cập và sử dụng
+
+- global scope: phạm vi toàn cục, truy xuất mọi nơi
+
+- function scope: phạm vi hàm, chỉ truy xuất và sử dụng trong hàm
+
+- block scope: phạm vi khối, như trong if... 
