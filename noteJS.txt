@@ -21,6 +21,34 @@
 - nếu mún biết biểu thức true or false, bôi đen r add to watch
 
 
+//Note BE
+
+//middleware để xử lí trung gian
+
+- route để hướng 
+
+- req: để nhận
+
+- res: để trả ra
+
+- passport js để đăng nhập vs gg fb
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -361,3 +389,21 @@ for(khởi tạo; điều kiện; bước lặp){
 - function scope: phạm vi hàm, chỉ truy xuất và sử dụng trong hàm
 
 - block scope: phạm vi khối, như trong if... 
+
+//Bài 39----------------------------------------------------
+
+- hoisting(nâng cao): là hành vi của JS nhằm di chuyển tất cả các kHAI BÁO lên đầu phạm vi hiện tại 
+    (lên đầu tập lệnh hiện tai, lên đầu hàm hiện tại, lên đầu block hiện tại)
+
+- var: dc nâng cao (hosted) lên đầu tập lệnh hiện tại, hoặc hàm hiện tại, có thể sử dụng trc khi nó dc khai báo trong mã lệnh
+    -> có phạm vi function scope, biến sẽ dc đẩy lên đầu hàm, nếu khai báo trong khối if thì nó sẽ đẩy lên đầu hàm lun
+    -> có thể khai báo lại 1 biến sử dụng var mà ko gây ra lỗi
+
+- let, const: cx dc nâng cao, lên đầu phạm vi block scope tuy nhiên biến sẽ nằm trong vùng temporal dead zone - ko thể sử dụng biến trc khi nó dc khai báo
+    -> khối mã nhận bt biến nhưng ko thể sử dụng dc cho đến khi nó dc khai báo\
+    -> phạm vi block scope, đẩy lên đầu block
+    -> ko thể khai báo lại 1 biến sử dụng let trong cùng phạm vi
+
+- hoisting in function:
+    -> function declaration thì sẽ bị hoisting, có thể họi hàm trc khi định nghĩa hàm
+    -> function expression và Arrow function thì ko thể gọi hàm trc khi định nghĩa
