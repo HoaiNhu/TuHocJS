@@ -416,7 +416,7 @@ for(khởi tạo; điều kiện; bước lặp){
     1. điểm dừng của bài toán
     2. quy luật của bài toán
 
-//Bài 41, 42----------------------------------------------------
+//Bài 41, 42, 43----------------------------------------------------
 
 - string: `` or "" or ''
 
@@ -444,3 +444,10 @@ for(khởi tạo; điều kiện; bước lặp){
         - slice(start, end): cho phép sử dung số âm để đếm từ cuối chuỗi, số âm sẽ dc hiểu là đếm từ cuối chuỗi về phía trc
 
     * đến từ cuối chuỗi là đến từ -1
+
+- trim(): xóa toàn bộ khoảng trắng ở cả 2 đầu chuỗi
+
+- trimStart(): xóa toàn bộ khoảng trắng ở đầu chuỗi
+
+- trim(End): xóa toàn bộ khoảng trắng ở cuối chuỗi
+
