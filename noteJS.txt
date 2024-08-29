@@ -407,3 +407,11 @@ for(khởi tạo; điều kiện; bước lặp){
 - hoisting in function:
     -> function declaration thì sẽ bị hoisting, có thể họi hàm trc khi định nghĩa hàm
     -> function expression và Arrow function thì ko thể gọi hàm trc khi định nghĩa
+
+//Bài 40----------------------------------------------------
+
+- đệ quy là cách dùng hàm để tự gọi lại chính nó
+
+- để giải đệ quy cần 2 điều kiện:
+    1. điểm dừng của bài toán
+    2. quy luật của bài toán
