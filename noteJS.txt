@@ -415,3 +415,32 @@ for(khởi tạo; điều kiện; bước lặp){
 - để giải đệ quy cần 2 điều kiện:
     1. điểm dừng của bài toán
     2. quy luật của bài toán
+
+//Bài 41, 42----------------------------------------------------
+
+- string: `` or "" or ''
+
+- index: start from 0
+
+- length: kiểm tra chuỗi có bao nhiu kí tự
+
+- name.slice(beginIndex, endIndex);
+    -> beginIndex: Vị trí bắt đầu cắt.
+    -> endIndex: Vị trí kết thúc cắt (đến endIndex - 1). bắt buộc start < end
+    -> Nếu không nhập endIndex, chuỗi sẽ được cắt đến cuối. hiểu ngầm định endIndex = string.length
+
+- name.substring(startIndex, endIndex)
+    -> startIndex: Vị trí bắt đầu cắt.
+    -> endIndex: Vị trí kết thúc cắt endIndex - 1.
+    -> Nếu không nhập endIndex, chuỗi sẽ được cắt đến cuối.
+
+- khác nhau giữ slice và substring:
+    1. Xử lí vs start > end
+        - substring(start, end): nếu start > end, chúng sẽ tự động đảo ngc lại, tự hiểu số nhỏ là start
+        - slice(start, end): nếu start > end, chuỗi xem như rỗng
+    
+    2. xử lí với tham số âm
+        - substring(start, end): chuyển số âm thành 0, nếu end < start khi chuyển số âm thì nó sẽ tự động đảo ngược chúng
+        - slice(start, end): cho phép sử dung số âm để đếm từ cuối chuỗi, số âm sẽ dc hiểu là đếm từ cuối chuỗi về phía trc
+
+    * đến từ cuối chuỗi là đến từ -1
