@@ -416,7 +416,7 @@ for(khởi tạo; điều kiện; bước lặp){
     1. điểm dừng của bài toán
     2. quy luật của bài toán
 
-//Bài 41, 42, 43----------------------------------------------------
+//Bài 41, 42, 43, 44, 45, 46, 47, 48----------------------------------------------------
 
 - string: `` or "" or ''
 
@@ -451,3 +451,45 @@ for(khởi tạo; điều kiện; bước lặp){
 
 - trim(End): xóa toàn bộ khoảng trắng ở cuối chuỗi
 
+- concat(): let newStr = s1.concat(s2, s3, ... sN): nối s2, s3,... vào chuỗi s1
+
+- toUpperCase(): chuyển toàn bộ chuỗi sang in hoa
+
+- toLowerCase(): chuyển toàn bộ chuỗi sang in Thường
+
+- charAt(index): trả về chuỗi nằm ở vị trí index dc truyền vào
+
+- replace(oldValue, newValue): let newStr = replace(oldValue, newValue): thay thế giá trị (oldValue) đầu tiên dc tìm thấy trong chuỗi bằng giá trị mới (newValue)
+    -> để thay thế all oldValue = newValue dùng biểu thức chính quy 
+    /: ký tự gạch chéo (forward slash) bắt đầu biểu diễn chính quy
+    /: ký tự gạch chéo kết thúc phần chuỗi tìm kiếm
+    g: cờ global, khi sử dụng cờ này JS sẽ tìm toàn bộ chuỗi
+    -> ví dụ: console.log(s1.replace(/học/g, "ngủ"));
+
+- repeat(count): lặp chuỗi count lần
+
+- []: có cx dc, ko cx dc
+
+- indexOf(searchValue, [fromIndex]): tìm kiếm searchValue xuất hiện lần đầu trong chuỗi, nếu tồn tại trả về index, ko tồn tại trả về -1
+    -> fromIndex: tìm từ vị trí fromIndex đến cuối chuỗi
+
+- lastIndexOf(searchValue, [endIndex]): tìm kiếm searchValue xuất hiện lần cuối trong chuỗi, nếu tồn tại trả về index, ko tồn tại trả về -1
+    -> endIndex: tìm từ 0 -> endIndex, bỏ trống tìm toàn chuỗi
+
+- includes(searchValue, [fromIndex]): kiểm tra chuỗi con, 
+
+- startsWith(searchValue , [startIndex])
+    -> Kiểm tra chuỗi có bắt đầu bằng searchValue không? Đúng trả về true, sai trả về false
+    -> startIndex (tùy chọn): Vị trí bắt đầu tìm kiếm trong chuỗi. Nếu không thì tìm từ đầu chuỗi
+
+- endsWith(searchValue, [endIndex])
+    -> Kiểm tra chuỗi có kết thúc bằng searchValue không? Đúng trả về true, sai trả về false
+    -> endIndex (tùy chọn): Vị trí kết thúc tìm kiếm trong chuỗi nếu có trong: tìm kiếm từ hết chuỗi gốc
+    ->  endIndex tìm từ 0 đến endIndex - 1
+
+- split: tách chuỗi trả về mảng
+    -> str.split(separator, [limit])
+        -> str: chuỗi gốc cần chia
+        -> separator: chuỗi để xác định vị trí thực hiện tách. nó có thể là 1 kí tự or 1 biểu thức chính quy, gặp separator là tách
+        -> limit: giới hạn số lượng phần tử trong mảng kết quả
+        -> nếu nhập "" thì sẽ tách từng kí tự trong mảng
