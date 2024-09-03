@@ -493,3 +493,14 @@ for(khởi tạo; điều kiện; bước lặp){
         -> separator: chuỗi để xác định vị trí thực hiện tách. nó có thể là 1 kí tự or 1 biểu thức chính quy, gặp separator là tách
         -> limit: giới hạn số lượng phần tử trong mảng kết quả
         -> nếu nhập "" thì sẽ tách từng kí tự trong mảng
+
+//Bài 54----------------------------------------------------
+
+- thời gian và ngày tháng là 1 phần quan trọng trong phát triển Web
+
+- trong JS, có 1 đối tượng mạnh mẽ là Date giúp bạn xử lí và hiển thị thời gian và ngày tháng
+
+- new Date(): tạo đối tượng, mặc định sẽ lấy thời gian hiện tại khi khởi tạo
+
+- timestamp là 1 đại diện cho 1 điểm cụ thể trong thời gian, tính bằng milisecond từ mốc 0
+    -> mốc 0: 00: 00: 00: ngày 1 tháng 1 năm 1970
