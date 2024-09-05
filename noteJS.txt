@@ -494,7 +494,7 @@ for(khởi tạo; điều kiện; bước lặp){
         -> limit: giới hạn số lượng phần tử trong mảng kết quả
         -> nếu nhập "" thì sẽ tách từng kí tự trong mảng
 
-//Bài 54----------------------------------------------------
+//Bài 54, 55----------------------------------------------------
 
 - thời gian và ngày tháng là 1 phần quan trọng trong phát triển Web
 
@@ -504,3 +504,21 @@ for(khởi tạo; điều kiện; bước lặp){
 
 - timestamp là 1 đại diện cho 1 điểm cụ thể trong thời gian, tính bằng milisecond từ mốc 0
     -> mốc 0: 00: 00: 00: ngày 1 tháng 1 năm 1970
+
+- cách truyền tham số thời gian theo ý muốn
+    1. cách 1: 
+        new Date(year, IndexMonth, day, hours, minutes, seconds, milisecond)
+            -> tháng 1 -> IndexMonth = 0, 2 là 1
+        
+    2. cách 2:
+        new Date(dateString)
+            -> ví dụ: new Date("2024-02-15T12:30:45")
+            -> 2024-02-15: ngày 15 tháng 2 năm 2024
+            -> T: kí tự phân tách
+            -> 12:30:45: 12h 30p 45s
+
+    3. sử dụng setFullYear, setMonth, setDate
+
+- xuất date time
+    1. dùng toLocalDateString()
+    
