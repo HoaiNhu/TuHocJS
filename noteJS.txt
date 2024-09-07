@@ -494,7 +494,7 @@ for(khởi tạo; điều kiện; bước lặp){
         -> limit: giới hạn số lượng phần tử trong mảng kết quả
         -> nếu nhập "" thì sẽ tách từng kí tự trong mảng
 
-//Bài 54, 55----------------------------------------------------
+//Bài 54, 55, 56, 57, 58, 59, 60----------------------------------------------------
 
 - thời gian và ngày tháng là 1 phần quan trọng trong phát triển Web
 
@@ -522,3 +522,22 @@ for(khởi tạo; điều kiện; bước lặp){
 - xuất date time
     1. dùng toLocalDateString()
     
+- setTimeOut: dùng để  thực hiện 1 hàm sau khoảng thời gian delay nhất định (vd: user truy cập web sau 10s hiện thông báo)
+    -> cú pháp: 
+        setTimeout(function, milisecond, param1, param2,...)
+        - function: là hàm mà chúng ta muốn thực hiện sau khoảng thời gian, có thể dùng tên hàm/biến, truyền trực tiếp function
+        - milisecond: thời gian chờ trc khi hàm dc gọi
+
+    - dùng clearTimeout để hủy thực hiện hàm: 
+        -> khi bạn sử dụng setTimeOut để tạo 1 đợi (delay), trong việc thực thi 1 hàm, setTimeOut sẽ trả về 1 ID của timeout
+        -> gán ID của timeout vào 1 biến, để tham chiếu đến nó và hủy bỏ thực hiện nếu cần
+
+- setIterval: giúp thực hiện 1 function lặp đi lặp lại sau 1 khoảng thời gian cố định
+    -> cú pháp
+        setInterval(function, milisecond, param1, param2,...)
+        - function: là hàm mà chúng ta muốn thực hiện lặp đi lặp lại sau khoảng thời gian, có thể dùng tên hàm/biến, truyền trực tiếp function
+        - milisecond: thời gian hàm sẽ tự động dc gọi lại lần tiếp theo
+
+    - hủy lặp tương tự như setTimeout
+        -> intervalID là giá trị duy nhất trả về bởi hàm setInterval
+        -> gán intervalID vào 1 biến, để tham chiếu và hủy lặp nếu cần
